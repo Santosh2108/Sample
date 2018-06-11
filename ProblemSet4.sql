@@ -121,4 +121,7 @@ select avg(count)
 from (select count(ID2) as count 
 from Friend 
 group by ID1) as FriendCount; 
+              
+              
+              
 
