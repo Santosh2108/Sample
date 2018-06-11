@@ -59,8 +59,8 @@ select name, city from guest order by city;
 /*List all details for non-smoking rooms in ascending order of price.*/
 select * from room where hotel_type='N' order by price;
 
-/*List the number of hotels there are.
-select count(*) from room where hotel_type='N' order by price;*/
+/*List the number of hotels there are.*/
+select count(*) from hotel;
 
 /*List the cities in which guests live. Each city should be listed only once.*/
 select distinct city from guest;
